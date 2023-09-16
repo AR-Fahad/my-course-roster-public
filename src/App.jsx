@@ -1,12 +1,12 @@
-import { useState } from "react";
 import "./App.css";
+import Header from "./components/header/header";
+import Courses from "./components/courses/Courses";
 
 function App() {
-  const [count, setCount] = useState(0);
-
   return (
     <>
-      <h1 className="font-extrabold text-6xl bg-sky-200">Vite + React</h1>
+      <Header></Header>
+      <Courses></Courses>
     </>
   );
 }
