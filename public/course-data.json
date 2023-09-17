@@ -1,73 +1,73 @@
 [
   {
     "id": 1,
-    "course": "Computer Programming Fundamentals",
+    "title": "Introduction to OOP Python",
     "credit": 3,
-    "description": "Learn the basics of computer programming and coding in this introductory course.",
+    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
     "price": 199.99,
     "img": "https://i.ibb.co/Ln69yY1/Rectangle-2.png"
   },
   {
     "id": 2,
-    "course": "Web Development Essentials",
+    "title": "Database (MySQL)",
     "credit": 2,
-    "description": "Get started with web development and create your first websites.",
+    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
     "price": 149.99,
     "img": "https://i.ibb.co/mTJsNVQ/Rectangle-2-1.png"
   },
   {
     "id": 3,
-    "course": "Data Science and Analytics",
+    "title": "Introduction to C Programming",
     "credit": 4,
-    "description": "Explore data science and learn how to analyze and visualize data.",
+    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
     "price": 249.99,
     "img": "https://i.ibb.co/hfNNMF0/Rectangle-2-2.png"
   },
   {
     "id": 4,
-    "course": "Artificial Intelligence for Beginners",
+    "title": "Introduction to Algorithms",
     "credit": 3,
-    "description": "Dive into the world of AI and machine learning applications.",
+    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
     "price": 199.99,
     "img": "https://i.ibb.co/brm4NQM/Rectangle-2-3.png"
   },
   {
     "id": 5,
-    "course": "Digital Marketing in Tech Industry",
+    "title": "Introduction to C++ for DSA",
     "credit": 2,
-    "description": "Learn digital marketing strategies tailored for the tech industry.",
+    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
     "price": 149.99,
     "img": "https://i.ibb.co/mXGhh2f/Rectangle-2-4.png"
   },
   {
     "id": 6,
-    "course": "Financial Management for IT Professionals",
+    "title": "Software Engineering",
     "credit": 2,
-    "description": "Gain essential financial management skills for IT professionals.",
+    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
     "price": 149.99,
     "img": "https://i.ibb.co/x7VZpv4/Rectangle-2-5.png"
   },
   {
     "id": 7,
-    "course": "Photography for Computer Geeks",
+    "title": "Problem-Solving Part",
     "credit": 1,
-    "description": "Master the art of photography with a tech twist.",
+    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
     "price": 99.99,
     "img": "https://i.ibb.co/qm6bz3P/Rectangle-2-6.png"
   },
   {
     "id": 8,
-    "course": "Graphic Design for Tech Enthusiasts",
+    "title": "Basic Data Structures",
     "credit": 2,
-    "description": "Learn graphic design basics for creating tech-related visuals.",
+    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
     "price": 149.99,
     "img": "https://i.ibb.co/hdxwHry/Rectangle-3.png"
   },
   {
     "id": 9,
-    "course": "Spanish Language for Tech Professionals",
+    "title": "AWS, Cloud Computing",
     "credit": 3,
-    "description": "Learn Spanish with a focus on tech terminology and communication.",
+    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
     "price": 199.99,
     "img": "https://i.ibb.co/f8TWZwp/Rectangle-3-1.png"
   }
