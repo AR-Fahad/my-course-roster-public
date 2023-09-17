@@ -6,11 +6,21 @@ import { useState } from "react";
 
 function App() {
   const [details, setDetails] = useState([]);
+  const [totalCredit, setTotalCredit] = useState(0);
+  const [remains, setRemains] = useState(20);
+  const [total, setTotal] = useState(0);
   const addToDetails = (detail) => {
-    const newDetails = [...details, detail];
-    setDetails(newDetails);
+    const newCredit = totalCredit + detail.credit;
+    if (newCredit <= 20) {
+      setTotalCredit(totalCredit + detail.credit);
+      setRemains(remains - detail.credit);
+      setTotal(total + detail.price);
+      const newDetails = [...details, detail];
+      setDetails(newDetails);
+    } else {
+      alert(`Credit Remaining ${remains}hr`);
+    }
   };
-  console.log(details);
 
   return (
     <>
@@ -18,7 +28,12 @@ function App() {
         <Header></Header>
         <div className="lg:flex gap-2">
           <Courses addToDetails={addToDetails}></Courses>
-          <Details></Details>
+          <Details
+            totalCredit={totalCredit}
+            remains={remains}
+            total={total}
+            details={details}
+          ></Details>
         </div>
       </div>
     </>
